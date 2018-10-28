@@ -1,0 +1,19 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "My Chatbot",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hongtaecwr/project-chatbot.git"
+  },
+  "author": "Chawarat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hongtaecwr/project-chatbot/issues"
+  },
+  "homepage": "https://github.com/hongtaecwr/project-chatbot#readme"
+}
