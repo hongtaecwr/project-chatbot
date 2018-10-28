@@ -3,7 +3,13 @@ const bodyParser = require('body-parser')
 const request = require('request')
 const app = express()
 const port = process.env.PORT || 4000
-app.post('/webhook', (req, res) => res.sendStatus(200))
+app.use(bodyParser.urlencoded({ extended: false }))
+app.use(bodyParser.json())
+app.post('/webhook', (req, res) => {
+    let reply_token = req.body.events[0].replyToken
+    reply(reply_token)
+    res.sendStatus(200)
+})
 app.listen(port)
 function reply(reply_token) {
     let headers = {
