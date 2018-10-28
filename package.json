@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/hongtaecwr/project-chatbot#readme",
   "dependencies": {
+    "@line/bot-sdk": "^6.3.0",
     "aimlinterpreter": "^0.1.7",
     "aimlparser": "^1.0.5",
     "body-parser": "^1.18.3",
