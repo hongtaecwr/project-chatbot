@@ -2,6 +2,7 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const request = require('request')
 const AIMLParser = require('aimlparser')
+var linebot = require('linebot');
 
 const app = express()
 const port = process.env.PORT || 4000
@@ -30,7 +31,7 @@ function reply(reply_token, msg) {
     let body = JSON.stringify({
         replyToken: reply_token,
         messages: [{
-            type: 'text',
+            type: 'text' + profile.displayName,
             text: msg
         }]
     })
