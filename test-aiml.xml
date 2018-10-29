@@ -2,13 +2,7 @@
 <aiml version="2.0">
     <category>
         <pattern>ดีจ้า</pattern>
-        <template>
-            <random>
-            <li> สวัสดีครับ </li>
-            <li> Hello, How are you? </li>
-            <li> Hello! </li>
-            </random>
-        </template>
+        <template>Hello!</template>
     </category>
 
     <category>
