@@ -31,18 +31,30 @@
         <template>สบายดีครับ</template>
     </category>
 
-        <category>
-        <pattern>Number</pattern>
+    <category>
+    <pattern>Hi</pattern>
         <template>
             <random>
-            <li>[Random1] </li>
-            <li>[Random2] </li>
-            <li>[Random3] </li>
-            <li>[Random4] </li>
-            <li>[Random5] </li>
-            <li>[Random6] </li>
+                <li>Hello!</li>
+                <li>Well hello there.</li>
+                <li>Howdy.</li>
+                <li>Good day.</li>
+                <li>Hi, friend.</li>
             </random>
         </template>
     </category>
 
+    <category>
+        <pattern>Number</pattern>
+            <template>
+                <random>
+                    <li>[Random1] </li>
+                    <li>[Random2] </li>
+                    <li>[Random3] </li>
+                    <li>[Random4] </li>
+                    <li>[Random5] </li>
+                    <li>[Random6] </li>
+                </random>
+        </template>
+    </category>
 </aiml>
