@@ -25,4 +25,10 @@
         <pattern>I LIKE *</pattern>
         <template>I like <star/> too.</template>
     </category>
+
+        <category>
+        <pattern>สบายดีไหม</pattern>
+        <template>สบายดีครับ</template>
+    </category>
+
 </aiml>
