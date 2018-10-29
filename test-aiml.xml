@@ -31,4 +31,18 @@
         <template>สบายดีครับ</template>
     </category>
 
+        <category>
+        <pattern>Number</pattern>
+        <template>
+            <random>
+            <li>[Random1] </li>
+            <li>[Random2] </li>
+            <li>[Random3] </li>
+            <li>[Random4] </li>
+            <li>[Random5] </li>
+            <li>[Random6] </li>
+            </random>
+        </template>
+    </category>
+
 </aiml>
