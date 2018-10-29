@@ -4,7 +4,7 @@
         <pattern>ดีจ้า</pattern>
         <template>
             <random>
-            <li> Hi! Nice to meet you </li>
+            <li> สวัสดีครับ </li>
             <li> Hello, How are you? </li>
             <li> Hello! </li>
             </random>
