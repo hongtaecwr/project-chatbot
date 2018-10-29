@@ -23,10 +23,6 @@ app.post('/webhook', (req, res) => {
 })
 app.listen(port)
 
-event.source.profile().then(function (profile) {
-    event.reply('Hello ' + profile.displayName);
-  });
-  
 function reply(reply_token, msg) {
     let headers = {
         'Content-Type': 'application/json',
