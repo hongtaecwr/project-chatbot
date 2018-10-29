@@ -2,21 +2,33 @@
 <aiml version="2.0">
     <category>
         <pattern>ดีจ้า</pattern>
-        <template>สวัสดี</template>
+        <template>
+            <random>
+                <li>สวัสดีจ้า</li>
+                <li>ดีค้าบ ว่าไงครับผม</li>
+                <li>หวัดีจ้า</li>
+                <li>มีอะไรให้ผมช่วยมั้ย</li>
+            </random>
+        </template>
     </category>
 
     <category>
-        <pattern>HELLO</pattern>
-        <template>Hello!</template>
+        <pattern>สบายดีไหม</pattern>
+        <template>สบายดีจ้า</template>
     </category>
 
     <category>
-        <pattern>WHO ARE YOU</pattern>
-        <template>I am HelloBot</template>
+        <pattern>นายคือใคร</pattern>
+        <template>ฉันคือบอท</template>
     </category>
     
     <category>
-        <pattern>I LIKE *</pattern>
-        <template>I like <star/> too.</template>
+        <pattern>ฉันชอบ *</pattern>
+        <template>ฉันชอบ <star/> เหมือนกัน</template>
+    </category>
+
+    <category>
+        <pattern>* มาก่อน *</pattern>
+        <template><star index=”1”/> จะมาก่อน <star index=”2”/></template>
     </category>
 </aiml>
