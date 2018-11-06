@@ -31,17 +31,4 @@
         <template>สบายดีครับ</template>
     </category>
 
-    <category>
-    <pattern>Hi</pattern>
-        <template>
-            <random>
-                <li>Hello!</li>
-                <li>Well hello there.</li>
-                <li>Howdy.</li>
-                <li>Good day.</li>
-                <li>Hi, friend.</li>
-            </random>
-        </template>
-    </category>
-
 </aiml>
