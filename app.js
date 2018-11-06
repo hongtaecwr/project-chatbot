@@ -7,7 +7,7 @@ const app = express()
 const port = process.env.PORT || 4000
 const aimlParser = new AIMLParser({ name:'HelloBot' })
 
-aimlParser.load(['test-aiml.xml'])
+aimlParser.load(['./test-aiml.xml'])
 
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
@@ -20,6 +20,7 @@ app.post('/webhook', (req, res) => {
     })
     res.sendStatus(200)
 })
+
 app.listen(port)
 
 function reply(reply_token, msg) {
