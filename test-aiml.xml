@@ -7,7 +7,6 @@
             <li> สวัสดีครับ [Random1] </li>
             <li> Hello, How are you? [Random2] </li>
             <li> Hello! [Random3] </li>
-            <li> Randomแล้วเย่ [Random4] </li>
             </random>
         </template>
     </category>
@@ -32,17 +31,9 @@
         <template>สบายดีครับ</template>
     </category>
 
-    <category>
-    <pattern>Hi</pattern>
-        <template>
-            <random>
-                <li>Hello!</li>
-                <li>Well hello there.</li>
-                <li>Howdy.</li>
-                <li>Good day.</li>
-                <li>Hi, friend.</li>
-            </random>
-        </template>
+        <category>
+        <pattern>*</pattern>
+        <template>ไม่เข้าใจจ้า</template>
     </category>
 
 </aiml>
